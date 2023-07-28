@@ -1,0 +1,19 @@
+sys-kernel/gentoo-sources ~amd64
+net-im/whatsie ~amd64
+app-editors/vscodium ~amd64
+sys-boot/ventoy-bin ~amd64
+sys-power/tlp ~amd64
+app-shells/thefuck ~amd64
+net-misc/wsdd **
+x11-misc/hardcode-tray **
+# required by app-i18n/fcitx-5.0.23::gentoo-zh[X]
+# required by x11-themes/fcitx-breeze-2.0.0-r2::gentoo-zh
+# required by fcitx-breeze (argument)
+=x11-libs/xcb-imdkit-1.0.5 ~amd64
+# required by x11-themes/fcitx-breeze-2.0.0-r2::gentoo-zh
+# required by fcitx-breeze (argument)
+=app-i18n/fcitx-5.0.23 ~amd64
+# required by fcitx-breeze (argument)
+=x11-themes/fcitx-breeze-2.0.0-r2 ~amd64
+# required by w3mimgfb (argument)
+=media-gfx/w3mimgfb-0.9.1 ~amd64
