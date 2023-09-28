@@ -1,19 +1,13 @@
-sys-kernel/gentoo-sources ~amd64
-net-im/whatsie ~amd64
+sys-kernel/gentoo-kernel ~amd64
+virtual/dist-kernel ~amd64
+net-misc/gerbera ~amd64
+media-gfx/mcomix ~amd64
+media-video/devedeng ~amd64
+media-video/popcorntime-bin ~amd64
 app-editors/vscodium ~amd64
+sci-electronics/librepcb ~amd64
+dev-util/netbeans-standalone ~amd64
 sys-boot/ventoy-bin ~amd64
-sys-power/tlp ~amd64
-app-shells/thefuck ~amd64
-net-misc/wsdd **
-x11-misc/hardcode-tray **
-# required by app-i18n/fcitx-5.0.23::gentoo-zh[X]
-# required by x11-themes/fcitx-breeze-2.0.0-r2::gentoo-zh
-# required by fcitx-breeze (argument)
-=x11-libs/xcb-imdkit-1.0.5 ~amd64
-# required by x11-themes/fcitx-breeze-2.0.0-r2::gentoo-zh
-# required by fcitx-breeze (argument)
-=app-i18n/fcitx-5.0.23 ~amd64
-# required by fcitx-breeze (argument)
-=x11-themes/fcitx-breeze-2.0.0-r2 ~amd64
-# required by w3mimgfb (argument)
-=media-gfx/w3mimgfb-0.9.1 ~amd64
+x11-themes/papirus-icon-theme ~amd64
+x11-apps/igt-gpu-tools ~amd64
+app-admin/coreboot-utils ~amd64
